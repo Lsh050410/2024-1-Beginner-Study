@@ -1,5 +1,4 @@
 # weekly I learned
-<<<<<<< HEAD:WIL1.md
 ## git
 * 버전 관리 및 협업을 위해 사용하는 오픈소스 소프트웨어
 
@@ -13,15 +12,14 @@
 * **git add** : *Working Directory*의 파일을 *Staging Area*로 보내는 명령어이다.
 * **git commit** : *Staging Area* 로 보내진 파일을 *Local Repo*로 보내 깃허브로 보낼 준비를 한다.
 * **git push** : *Local Repo*로 보내진 파일을 *Remote Repo*로 보내 최종적으로 자신의 *Repository*에 전송한다.
-*
-*
-*
+### git add
+- **git add** <파일명> 은 파일을 지정해서 *Working Directory*로 보내는 명령어이고 **git add .** 은 모든 파일을 *Working Directory*로 보내는 명령어이다.
 
-=======
-### 배운 것
-* git이 협업, 버전 관리에 주로 사용이 되고 그 git을 공유할 수 있는 게 github라는 걸 알게됐다.
-- git add, git commit, git push 등의 명령어를 통해 내가 작성한 문서를 github까지 보내는 방법을 알게됐다.
-- git push는 
----
->>>>>>> 095a60d434fcf3d7d063c7ff0aafe645f48f9bac:week1/WIL1.md
+### git commit
+- **git commit -m "commit message"** commit message와 함께 지정된 파일을 *Local Repo*로 보낸다.
+
+### git push
+- **git push origin main** 은 commit 된 파일을 github의 repository로 올려준다.
+
+
 https://github.com/Lsh050410/Lsh050410
